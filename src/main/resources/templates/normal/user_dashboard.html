@@ -1,0 +1,25 @@
+<!-- <!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>user dashboard</title>
+</head>
+<body>
+<h1>welcome u r normal user</h1>
+<h1>User Name :  <span th:text="${student.firstName}"></span></h1>
+<h1>User Email : <span th:text="${student.email}"></span></h1>
+<h1><a href="" th:href="@{/logout}" >Logout</a></h1>
+</body>
+</html> -->
+
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+th:replace="normal/base::layout(~{::section})" >
+<head>
+<meta charset="UTF-8"/>
+<title>this is home page</title>
+</head>
+<body>
+<section><h1>this is private dashboard</h1></section>
+</body>
+</html>
